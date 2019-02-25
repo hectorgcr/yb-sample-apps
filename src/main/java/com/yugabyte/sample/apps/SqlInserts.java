@@ -84,6 +84,7 @@ public class SqlInserts extends AppBase {
   }
 
   public String getTableName() {
+    
     String tableName = appConfig.tableName != null ? appConfig.tableName : DEFAULT_TABLE_NAME;
     return tableName.toLowerCase();
   }
